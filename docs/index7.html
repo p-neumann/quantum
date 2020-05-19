@@ -1,0 +1,26 @@
+<!DOCTYPE html>  
+<html lang="en">   
+<head>  
+<script  type="text/javascript" src="jquery.js"></script> 
+<script  type="text/javascript" src="jquery.session.js"></script> 
+<title>For authorized users only.</title>  
+
+<script type="text/javascript" >
+ $.session.set("wsb", "yes");
+ </script> 
+ 
+</head>  
+<body>  
+    <form name="keeper" action="javascript:location.href =
+    window.document.keeper.page.value + '.html'" style="margin:0;">
+        <div style="display:inline;">
+        Passcode: <input type="text" name="page">
+        <input type="submit" value="Go">
+            <noscript>
+            	Javascript is required to access this area.
+            </noscript>
+        </div>
+    </form>
+
+</body>  
+</html>  

@@ -231,7 +231,7 @@ section
 }
 .parallax-window
 {
-    min-height: 400px;
+    min-height: 200px;
     background: transparent;
 }
 .parallax_background
@@ -240,7 +240,7 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 90%;
 }
 .nopadding
 {
@@ -474,7 +474,7 @@ section
 .home
 {
 	width: 100%;
-	height: 100vh;
+	height: 80vh;
 }
 .home_background
 {
@@ -827,7 +827,7 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 115px;
+	padding-top: 15px;
 	padding-bottom: 67px;
 	padding-left: 144px;
 	padding-right: 144px;
